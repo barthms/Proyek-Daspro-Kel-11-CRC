@@ -33,6 +33,8 @@ int main(){
             }
             kondisi = 0;            // mereset ulang bahwa nilai dari kondisi = 0
         }
+
+        printf("test");
     }
 
     return 0;
