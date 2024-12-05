@@ -98,7 +98,11 @@ int main() {
     fprintf(outputan, "*********PROGRAM CRC*********\n");
     fprintf(outputan, "-------------------------------------\n");
 
+    int i = 0;
     while (fscanf(inputan, "%d", &nim) != EOF) {
+        i++;
+            fprintf(outputan, "%d. ", i);
+        
         fprintf(outputan, "NIM: %d\n", nim);
 
         // Mengkonversi NIM ke biner
